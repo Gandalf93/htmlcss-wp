@@ -7,12 +7,13 @@
 
 .container{
     width: 800px;
-    background-color: aquamarine;
-    height: 500px;
+    height: auto;
     margin: auto;
 }
+   
 
 /* debug - sezione da eliminare */
+
 
 
 
@@ -27,6 +28,7 @@
 }
 
 .menu li{
+    list-style: none;
     display: inline-block;
     margin-right: 10px;
     color: grey;
@@ -34,6 +36,44 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/* main */
+
+/* main parte alta */
+
+.main-alto{
+    margin-top: 15px;
+    background-image:url(../img/banner.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    height: auto;
+    border-radius:3%;
+    background-position: center;
+   
+    
+}
+
+.p-img{
+    padding-left: 5%;
+    padding-top:30%;
+    padding-bottom: 5%;
+    text-align: justify;
+    color: rgb(253, 54, 177);
+    
+    } 
+
+    #big{
+        font-size: 25px;
+    }
+        
+
+
+
+      
+
+   
+
+  
 
 
     
