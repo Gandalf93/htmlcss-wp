@@ -1,0 +1,39 @@
+/* common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 800px;
+    background-color: aquamarine;
+    height: 500px;
+    margin: auto;
+}
+
+/* debug - sezione da eliminare */
+
+
+
+
+/* header */
+
+#logoimg{
+    padding-right: 20px;
+    border-right: 1px solid lightgrey;
+    width: 25%;
+  
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 10px;
+    color: grey;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+    
